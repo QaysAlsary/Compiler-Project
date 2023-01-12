@@ -1,0 +1,26 @@
+void main(){
+runApp(
+MaterialApp(
+home: Scaffold(
+appBar: AppBar(
+title: Text("Compiler Test")
+),
+body: Row(
+children: [
+Column(
+children: [
+ Text("Product name"),
+ Image(
+ image: AssetImage("Image")
+
+ ),
+ Text("description")
+]
+)
+]
+)
+)
+)
+)
+return ;
+}

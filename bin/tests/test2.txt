@@ -1,0 +1,9 @@
+int main(){
+    int x = 10;
+    int y = 10;
+    string s = "hello" ;
+    //s.length()
+    Class object = new Class();
+    print(s.length());
+    return x * y;
+}
